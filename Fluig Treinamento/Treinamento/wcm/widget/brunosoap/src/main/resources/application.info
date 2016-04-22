@@ -1,0 +1,18 @@
+application.type=widget
+application.code=brunosoap
+application.title=Bruno - SOAP
+application.description=Bruno - SOAP
+application.category=Bruno
+application.renderer=freemarker
+application.uiwidget=true
+application.mobileapp=false
+
+developer.code=SPON4399
+developer.name=bruno.bulnes
+developer.url=http://www.fluig.com
+
+view.file=view.ftl
+edit.file=edit.ftl
+
+application.resource.css.1=/resources/css/brunosoap.css
+application.resource.js.2=/resources/js/brunosoap.js

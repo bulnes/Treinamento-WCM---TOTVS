@@ -1,0 +1,14 @@
+application.type=layout
+application.code=brunodesafio
+application.title=Bruno - Desafio
+application.description=Bruno - Desafio
+application.category=SYSTEM
+application.renderer=freemarker
+developer.code=SPON4399
+developer.name=bruno.bulnes
+developer.url=http://www.fluig.com
+layout.defaultSlot=SlotA
+layout.file=layout.ftl
+locale.file.base.name=brunodesafio
+slot.SlotMenu=menu
+slot.SlotLogin=sociallogin

@@ -1,0 +1,18 @@
+application.type=widget
+application.code=brunomodal
+application.title=Bruno - Modal
+application.description=Bruno - Modal
+application.category=Bruno
+application.renderer=freemarker
+application.uiwidget=true
+application.mobileapp=true
+
+developer.code=bruno.bulnes
+developer.name=Bruno Bulnes
+developer.url=http://www.fluig.com
+
+view.file=view.ftl
+edit.file=edit.ftl
+
+application.resource.css.1=/resources/css/brunomodal.css
+application.resource.js.2=/resources/js/brunomodal.js

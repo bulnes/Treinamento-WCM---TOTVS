@@ -1,0 +1,7 @@
+<#import "/wcm.ftl" as wcm/>
+
+<@wcm.header authenticated="true"/>
+
+<@wcm.menu />
+
+<@wcm.renderSlot id="SlotA" editableSlot="true"/>

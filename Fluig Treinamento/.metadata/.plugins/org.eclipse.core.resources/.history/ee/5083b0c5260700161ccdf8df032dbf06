@@ -1,0 +1,67 @@
+var brunosoap = SuperWidget.extend({
+    editMode: false,
+    viewMode: false,
+    
+    init: function() {
+    	var _xml;
+    	
+    	if (this.viewMode) {
+    		$.ajax({
+    			async: false,
+    			dataType: "xml",
+    			success: function(xml) {
+    				_xml = $(xml);
+    			},
+    			type: "GET",
+    			url: "/brunosoap/resources/js/xmls/ECMCardService_create.xml"
+    		});
+    		
+    		_xml.find("companyId").text( WCMAPI.tenantCode );
+    		_xml.find("[name=nome]").text("Meu teste");
+    		_xml.find("parentDocumentId").text(153);
+    		
+    		WCMAPI.Create({
+    		    url: "/webdesk/ECMCardService?wsdl",
+    		    contentType: "text/xml",
+    		    dataType: "xml",
+    		    data: _xml[0],
+    		    success: function(data){
+    		    	console.log("Card criado: ", $(data).find("documentId").text());
+    		    	this.dele
+    		    }
+    		});
+    	}
+    },
+    
+    deleteCard: function(cardId) {
+    	var xmlDelete;
+    	
+    	$.ajax({
+    		async: false,
+    		dataType: "xml",
+    		success: function(deleteXML) {
+    			xmlDelete = $(deleteXML);
+    		},
+    		type: "GET",
+    		url: "/brunosoap/resources/js/xmls/ECMCardService_delete.xml"
+    	});
+    	
+    	xmlDelete.find("companyId").text(WCMAPI.tenantCode);
+    	xmlDelete.find("cardId").text(cardId);
+    	
+    	WCMAPI.Create({
+    	    url: "/webdesk/ECMCardService?wsdl",
+    	    contentType: "text/xml",
+    	    dataType: "xml",
+    	    data: xmlDelete[0],
+    	    success: function(data){
+    	    	console.log(data);
+    	    }
+    	});
+    },
+    
+    bindings: {
+        local: {},
+        global: {}
+    },
+});

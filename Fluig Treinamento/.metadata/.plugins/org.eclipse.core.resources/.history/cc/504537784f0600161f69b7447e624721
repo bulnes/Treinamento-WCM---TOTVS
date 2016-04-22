@@ -1,0 +1,9 @@
+<div id="brunoinfouser_${instanceId}" 
+	class="super-widget wcm-widget-class fluig-style-guide" 
+	data-params="brunoinfouser.instance()">
+	
+	<div class="page-header">
+		<h1>Olá <span id="nome_do_usuario"></span></h1> 
+		<small>Seu salário é ${salario!0}</small>
+	</div>
+</div>

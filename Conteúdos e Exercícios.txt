@@ -1,0 +1,42 @@
+Itens com * representam os tópicos explicados 
+
+* wcm
+* criação de páginas 
+* style guide
+* fluig store
+* criação de widgets (explicar estrutura)
+
+exercícios 
+01 - criar a widget hello world
+02 - criar slideshow com style guide
+03 - criar organograma com style guide
+04 - criar modal (e depois modal que chama a widget hello world)
+05 - criar widget que salva informações 
+
+-> WCMSpaceAPI.PageService.UPDATEPREFERENCES({async:false}, this.instanceId, args)
+
+* wcmapi
+
+exercício
+06 - listar informações do usuário corrente
+
+* api do fluig
+
+exercícios
+05 - listar usuários ativos no sistema
+06 - listar comunidades
+07 - enviar e-mail
+
+* soap do fluig
+
+exercícios
+08 - fazer crud com soap+form
+
+desafio 
+criar chat de conversar usando o messaging
+
+* como criar layouts
+
+desafio
+criar super layout público usando somente o style guide
+

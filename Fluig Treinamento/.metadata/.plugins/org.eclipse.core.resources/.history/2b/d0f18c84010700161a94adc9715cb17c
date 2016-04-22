@@ -1,0 +1,13 @@
+var brunodataset = SuperWidget.extend({
+	editMode: false,
+	viewMode: false,
+
+    init: function() {
+    	
+    },
+    
+    bindings: {
+        local: {},
+        global: {}
+    },
+});

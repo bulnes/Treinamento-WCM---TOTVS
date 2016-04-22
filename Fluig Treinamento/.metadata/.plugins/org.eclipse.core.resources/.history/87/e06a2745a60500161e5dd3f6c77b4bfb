@@ -1,0 +1,19 @@
+application.type=widget
+application.code=brunoorganograma
+application.title=Bruno - Organograma
+application.description=Bruno - Organograma
+application.category=Bruno
+application.renderer=freemarker
+application.uiwidget=true
+application.mobileapp=true
+application.icon=icon.png
+
+developer.code=bruno.bulnes
+developer.name=Bruno Bulnes
+developer.url=http://www.fluig.com
+
+view.file=view.ftl
+edit.file=edit.ftl
+
+application.resource.css.1=/resources/css/brunoorganograma.css
+application.resource.js.2=/resources/js/brunoorganograma.js

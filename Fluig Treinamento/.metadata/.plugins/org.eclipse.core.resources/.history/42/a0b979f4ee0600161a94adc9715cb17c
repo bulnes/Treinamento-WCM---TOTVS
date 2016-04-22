@@ -1,0 +1,16 @@
+application.type=layout
+application.code=teste
+application.title=teste
+application.description=teste
+application.category=SYSTEM
+application.renderer=freemarker
+developer.code=SPON4399
+developer.name=bruno.bulnes
+developer.url=http://www.fluig.com
+layout.defaultSlot=SlotA
+layout.file=layout.ftl
+locale.file.base.name=teste
+slot.SlotMenu=menu
+slot.SlotLogin=sociallogin
+application.icon=icon.png
+

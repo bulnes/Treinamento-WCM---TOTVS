@@ -1,0 +1,8 @@
+<#import "/wcm.ftl" as wcm/>
+<@wcm.header public="true"/>
+<!-- WCM Wrapper content -->
+<div class="wcm-wrapper-content">
+
+    <@wcm.menu />
+
+</div>

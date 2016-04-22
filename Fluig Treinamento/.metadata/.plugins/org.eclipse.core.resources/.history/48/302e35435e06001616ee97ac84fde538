@@ -1,0 +1,19 @@
+var brunoapi = SuperWidget.extend({
+	editMode: false,
+	viewMode: false,
+	
+    init: function() {
+    	if (this.editMode) {
+    		
+    	}
+    	
+    	if (this.viewMode) {
+    		
+    	}
+    },
+    
+    bindings: {
+        local: {},
+        global: {}
+    },
+});

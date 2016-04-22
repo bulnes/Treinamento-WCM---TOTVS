@@ -1,0 +1,23 @@
+var brunomodal = SuperWidget.extend({
+
+    init: function() {
+    	
+    },
+    
+    bindings: {
+        local: {
+        	"openmodal": ["click_openModal"]
+        },
+        global: {}
+    },
+    
+    openModal: function(el, ev) {
+    	var myModal = FLUIGC.modal({
+    	    title: 'Title',
+    	    content: {
+    	    	widgetCode: "brunohelooworld"
+    	    },
+    	    id: 'fluig-modal',
+    	});
+    },
+});

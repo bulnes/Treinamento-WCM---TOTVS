@@ -1,0 +1,19 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.dm.ecm.technology.totvs.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:create>
+         <companyId>1</companyId>
+         <username>bruno.bulnes</username>
+         <password>bruno.bulnes</password>
+         <card>
+            <item>
+               <cardData>
+                  <field>nome</field>
+                  <value name="nome">Bruno</value>
+               </cardData>
+               <parentDocumentId>149</parentDocumentId>
+            </item>
+         </card>
+      </ws:create>
+   </soapenv:Body>
+</soapenv:Envelope>

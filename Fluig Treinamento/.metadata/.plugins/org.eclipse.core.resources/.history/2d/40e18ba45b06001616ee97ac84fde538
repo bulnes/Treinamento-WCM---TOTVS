@@ -1,0 +1,16 @@
+var brunoapi = SuperWidget.extend({
+	
+    init: function() {
+    	
+    },
+    
+    bindings: {
+        local: {},
+        global: {}
+    },
+ 
+    executeAction: function(htmlElement, event) {
+    }
+
+});
+

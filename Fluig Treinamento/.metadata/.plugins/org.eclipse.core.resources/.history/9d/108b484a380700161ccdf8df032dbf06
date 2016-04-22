@@ -1,0 +1,16 @@
+<#import "/wcm.ftl" as wcm/>
+
+<!-- WCM Wrapper content -->
+<div class="wcm-wrapper-content">
+
+   
+    <!-- Wrapper -->
+    <div class="wcm-all-content">
+        <div id="wcm-content" class="clearfix wcm-background">
+
+            <!-- Your content here -->
+
+            <@wcm.footer layoutuserlabel="wcm.layoutdefault.user" />
+        </div>
+    </div>
+</div>

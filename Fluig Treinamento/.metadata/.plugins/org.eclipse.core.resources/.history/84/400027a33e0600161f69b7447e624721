@@ -1,0 +1,10 @@
+<div id="brunoinfouser_${instanceId}" 
+	class="super-widget wcm-widget-class fluig-style-guide" 
+	data-params="brunoinfouser.instance()">
+	
+	<label>Salário do usuário:</label>
+	<input type="text" name="salario" id="salario" value="0" />
+	
+	<button data-salvar>Salvar</button>
+
+</div>

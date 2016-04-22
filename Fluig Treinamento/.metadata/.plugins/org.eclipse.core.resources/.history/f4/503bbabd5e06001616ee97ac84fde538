@@ -1,0 +1,22 @@
+var brunoapi = SuperWidget.extend({
+	editMode: false,
+	viewMode: false,
+	
+    init: function() {
+    	if (this.editMode) {
+    		
+    	}
+    	
+    	if (this.viewMode) {
+    		$.ajax({
+    			type: "GET",
+    			url: "/api/public/social/community/listCommunities"
+    		});
+    	}
+    },
+    
+    bindings: {
+        local: {},
+        global: {}
+    },
+});

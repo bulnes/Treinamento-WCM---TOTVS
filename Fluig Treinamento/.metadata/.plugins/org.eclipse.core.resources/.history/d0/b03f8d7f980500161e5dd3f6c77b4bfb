@@ -1,0 +1,38 @@
+var brunoslideshow = SuperWidget.extend({
+
+    init: function() {
+    	var images = [{
+              src: 'https://i.ytimg.com/vi/5fD7bSZcN5s/maxresdefault.jpg',
+              alt: 'First image',
+              title: 'First image',
+              description: 'First image description',
+              linktarget: '_blank',
+              linkhref: 'http://www.fluig.com',
+              linktext: 'fluig'
+          },{
+              src: 'https://i.ytimg.com/vi/hixlqJnBCd4/maxresdefault.jpg',
+              alt: 'Second image',
+              title: 'Second image',
+              description: 'Second image description',
+              linktarget: '_blank',
+              linkhref: 'http://style.fluig.com',
+              linktext: 'Style Guide'
+          }
+      ];
+    	           
+      var settings = {
+          id: 'myFluigCarouselExample',
+          images: images,
+          indicators: true,
+          startIndex: 0,
+          interval: 5000
+      };
+       
+      var carousel = FLUIGC.carousel('#carousel-example-generic', settings);
+    },
+    
+    bindings: {
+        local: {},
+        global: {}
+    },
+});

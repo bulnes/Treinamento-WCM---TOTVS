@@ -1,0 +1,3 @@
+<#import "/wcm.ftl" as wcm/>
+
+<@wcm.header authenticated="true"/>

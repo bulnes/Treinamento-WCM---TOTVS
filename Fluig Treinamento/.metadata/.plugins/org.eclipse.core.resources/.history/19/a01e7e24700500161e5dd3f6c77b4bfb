@@ -1,0 +1,17 @@
+application.type=widget
+application.code=brunohelloworld
+application.title=Bruno - Hello World
+application.description=Bruno - Hello World
+application.category=Bruno
+application.renderer=freemarker
+application.uiwidget=true
+application.mobileapp=true
+
+developer.code=bruno.bulnes
+developer.name=Bruno Bulnes
+developer.url=http://www.fluig.com
+
+view.file=view.ftl
+edit.file=edit.ftl
+
+application.resource.css.1=/resources/css/brunohelloworld.css

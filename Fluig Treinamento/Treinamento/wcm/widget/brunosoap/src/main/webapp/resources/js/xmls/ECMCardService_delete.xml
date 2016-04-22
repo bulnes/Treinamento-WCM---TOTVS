@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.dm.ecm.technology.totvs.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:deleteCard>
+         <companyId></companyId>
+         <username></username>
+         <password></password>
+         <cardId></cardId>
+      </ws:deleteCard>
+   </soapenv:Body>
+</soapenv:Envelope>

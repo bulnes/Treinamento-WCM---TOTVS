@@ -1,0 +1,16 @@
+var brunodataset = SuperWidget.extend({
+	editMode: false,
+	viewMode: false,
+
+    init: function() {
+    	if (this.viewMode) {
+    		var colleague = DatasetFactory.getDataset("colleague", null, null, null);
+    		console.log(colleague);
+    	}
+    },
+    
+    bindings: {
+        local: {},
+        global: {}
+    },
+});

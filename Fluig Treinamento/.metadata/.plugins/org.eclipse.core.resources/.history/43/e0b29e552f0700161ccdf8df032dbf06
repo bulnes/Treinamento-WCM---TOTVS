@@ -1,0 +1,31 @@
+<#import "/wcm.ftl" as wcm/>
+<@wcm.header/>
+
+<!-- WCM Wrapper content -->
+<div class="wcm-wrapper-content">
+
+    <@wcm.menu />
+
+    <!-- Wrapper -->
+    <div class="wcm-all-content">
+        <div id="wcm-content" class="clearfix wcm-background">
+
+			<div class="row">
+				<div class="col-xs-10">
+					Primeira DIV
+				</div>
+				<div class="col-xs-2">
+					Segunda DIV
+				</div>
+			</div>
+			
+            
+            <div class="editable-slot">
+			    <@wcm.renderSlot id="Slot001" editableSlot="true" />
+			</div>
+            
+
+            <@wcm.footer layoutuserlabel="wcm.layoutdefault.user" />
+        </div>
+    </div>
+</div>

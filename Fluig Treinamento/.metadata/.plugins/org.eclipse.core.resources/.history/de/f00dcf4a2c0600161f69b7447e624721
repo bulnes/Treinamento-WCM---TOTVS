@@ -1,0 +1,28 @@
+var MyWidget = SuperWidget.extend({
+	
+    init: function() {
+    },
+    
+    bindings: {
+        local: {
+        	"openmodal": ["click_openModal"]
+        },
+        global: {}
+    },
+    
+    openModal: function() {
+    	var myModal = FLUIGC.modal({
+    	    title: 'title',
+    	    content: {
+    	        widgetCode: 'myWidget', 
+    	        ftl: 'view.ftl',
+    	        data: {
+    	            sociableId: 0001,
+    	            listType: 'SOCIABLE',
+    	            customInstance: WCMAPI.generateId()
+    	        }
+    	    },
+    	    id: 'fluig-modal'
+    	});
+    },
+});

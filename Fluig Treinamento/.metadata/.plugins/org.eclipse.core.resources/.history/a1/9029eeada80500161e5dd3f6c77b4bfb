@@ -1,0 +1,18 @@
+<div id="brunoorganograma_${instanceId}" 
+	class="super-widget wcm-widget-class fluig-style-guide" 
+	data-params="brunoorganograma.instance()">
+
+	<div id="orgChart"></div>
+	
+	<script type="text/template" class="my_template_orgchart">
+	    <div class="media">
+	        {{#img}}<a class="pull-left" href="#"><img class="img-rounded media-object" src="{{img}}"></a>{{/img}}
+	        <div class="media-body">
+	            {{#name}}<h4 class="media-heading">{{name}}</h4>{{/name}}
+	            {{#description}}<p>{{description}}</p>{{/description}}
+	            {{#email}}<p>{{email}}</p>{{/email}}
+	        </div>
+	    </div>
+	</script>
+
+</div>

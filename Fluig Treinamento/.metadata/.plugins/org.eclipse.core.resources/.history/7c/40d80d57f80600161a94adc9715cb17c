@@ -1,0 +1,3 @@
+[id^=brunoapiuser_] img {
+	margin-right: 20px;
+}

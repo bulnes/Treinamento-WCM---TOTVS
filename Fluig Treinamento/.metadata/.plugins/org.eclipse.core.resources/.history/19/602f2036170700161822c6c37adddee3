@@ -1,0 +1,5 @@
+<div id="brunomodal_${instanceId}" 
+	class="super-widget wcm-widget-class fluig-style-guide" 
+	data-params="brunomodal.instance()">
+	<btn data-openmodal class="btn btn-primary">Abrir modal</btn>
+</div>

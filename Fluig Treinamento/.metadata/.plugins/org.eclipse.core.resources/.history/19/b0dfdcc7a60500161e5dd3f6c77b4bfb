@@ -1,0 +1,11 @@
+var brunoorganograma = SuperWidget.extend({
+
+    init: function() {
+    	
+    },
+    
+    bindings: {
+        local: {},
+        global: {}
+    },
+});

@@ -1,0 +1,10 @@
+var brunoinfouser = SuperWidget.extend({
+	
+    init: function() {
+    },
+    
+    bindings: {
+        local: {},
+        global: {}
+    },
+});

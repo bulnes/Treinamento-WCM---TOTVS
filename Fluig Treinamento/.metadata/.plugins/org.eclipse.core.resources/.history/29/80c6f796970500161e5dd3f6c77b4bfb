@@ -1,0 +1,11 @@
+var brunoslideshow = SuperWidget.extend({
+
+    init: function() {
+    	
+    },
+    
+    bindings: {
+        local: {},
+        global: {}
+    },
+});

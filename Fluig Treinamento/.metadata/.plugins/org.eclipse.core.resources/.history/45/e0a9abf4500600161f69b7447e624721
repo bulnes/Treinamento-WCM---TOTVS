@@ -1,0 +1,44 @@
+var brunoinfouser = SuperWidget.extend({
+	editMode: false,
+	viewMode: false,
+	
+    init: function() {
+    	if (this.viewMode) {
+    		$("#nome_do_usuario").text( WCMAPI.user );
+    	}
+    },
+    
+    bindings: {
+        local: {
+        	"salvar": ["click_save"]
+        },
+        global: {}
+    },
+    
+    save: function() {
+    	var args = {
+			'salario': $("#salario").val()
+    	};
+    	
+    	var result = WCMSpaceAPI.PageService.UPDATEPREFERENCES(
+    			{async: false}, 
+    			this.instanceId, 
+    			args
+		);
+    	
+    	if (result) {
+    		FLUIGC.toast({
+    			title: "",
+    			message: "Salvou!",
+    			type: "success"
+    		});
+    	} 
+    	else {
+    		FLUIGC.toast({
+    			title: "Atenção!",
+    			message: "Não salvou",
+    			type: "danger"
+    		});
+    	}
+    }
+});

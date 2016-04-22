@@ -1,0 +1,17 @@
+var brunosoap = SuperWidget.extend({
+    editMode: false,
+    viewMode: false,
+    
+    init: function() {
+    	if (this.viewMode) {
+    		$.ajax({
+    			
+    		});
+    	}
+    },
+    
+    bindings: {
+        local: {},
+        global: {}
+    },
+});

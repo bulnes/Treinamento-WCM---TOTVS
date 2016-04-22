@@ -1,0 +1,36 @@
+var brunoapiuser = SuperWidget.extend({
+	editMode: false,
+	viewMode: false,
+	
+    init: function() {
+    	if (this.viewMode) {
+    		
+    		$.ajax({
+    			beforeSend: function() {
+    				
+    			},
+    			complete: function() {
+    				
+    			},
+    			error: function() {
+    				
+    			},
+    			success: function(users) {
+    				console.log(users);
+    				
+    				$.each(users, function(k, user) {
+    					console.log(user.alias, user.name, user.tenantAdmin)
+    				});
+    			},
+    			type: "GET",
+    			url: "/api/public/social/user"
+    		});
+    		
+    	}
+    },
+    
+    bindings: {
+        local: {},
+        global: {}
+    },
+});

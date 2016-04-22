@@ -1,0 +1,18 @@
+application.type=widget
+application.code=brunoslideshow
+application.title=Bruno - Slideshow
+application.description=Bruno - Slideshow
+application.category=Bruno
+application.renderer=freemarker
+application.uiwidget=true
+application.mobileapp=true
+application.icon=icon.png
+
+developer.code=bruno.bulnes
+developer.name=Bruno Bulnes
+developer.url=http://www.fluig.com
+
+view.file=view.ftl
+edit.file=edit.ftl
+
+application.resource.css.1=/resources/css/brunoslideshow.css

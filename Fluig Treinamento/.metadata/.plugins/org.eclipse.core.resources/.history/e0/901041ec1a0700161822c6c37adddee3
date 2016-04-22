@@ -1,0 +1,27 @@
+var brunosoap = SuperWidget.extend({
+    editMode: false,
+    viewMode: false,
+    
+    init: function() {
+    	var _xml;
+    	
+    	if (this.viewMode) {
+    		$.ajax({
+    			async: false,
+    			dataType: "xml",
+    			success: function(xml) {
+    				_xml = $(xml);
+    			},
+    			type: "GET",
+    			url: "/brunosoap/resources/js/xmls/ECMCardService_create.xml"
+    		});
+    		
+    		console.log( _xml[0] );
+    	}
+    },
+    
+    bindings: {
+        local: {},
+        global: {}
+    },
+});

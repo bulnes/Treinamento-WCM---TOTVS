@@ -1,0 +1,17 @@
+INDEX VERSION 1.3+C:\Users\bruno.bulnes\Fluig Treinamento\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1170070296.index
+987463741.index
+2027331957.index
+2025871717.index
+2900488862.index
+203644833.index
+4402177.index
+2449144319.index
+2647474780.index
+3065142505.index
+1755678178.index
+2156080533.index
+48054452.index
+1280342415.index
+2194552074.index
+1911451929.index

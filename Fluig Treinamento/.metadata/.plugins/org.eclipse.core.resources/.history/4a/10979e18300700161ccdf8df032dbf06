@@ -1,0 +1,44 @@
+<#import "/wcm.ftl" as wcm/>
+<@wcm.header/>
+
+<!-- WCM Wrapper content -->
+<div class="wcm-wrapper-content">
+
+    <@wcm.menu />
+
+    <!-- Wrapper -->
+    <div class="wcm-all-content">
+        <div id="wcm-content" class="clearfix wcm-background">
+
+			<div class="fluig-style-guide">
+				<div class="row">
+					<div class="col-xs-6" style="background-color:red">
+						<h1>Primeira DIV</h1>
+					</div>
+					<div class="col-xs-6" style="background-color:blue">
+						<h1>Segunda DIV</h1>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-xs-3" style="background-color:yellow">
+						<h1>Primeira DIV</h1>
+					</div>
+					<div class="col-xs-9" style="background-color:green">
+						<h1>Segunda DIV</h1>
+					</div>
+				</div>
+			</div>
+
+			
+			
+            
+            <div class="editable-slot">
+			    <@wcm.renderSlot id="Slot001" editableSlot="true" />
+			</div>
+            
+
+            <@wcm.footer layoutuserlabel="wcm.layoutdefault.user" />
+        </div>
+    </div>
+</div>

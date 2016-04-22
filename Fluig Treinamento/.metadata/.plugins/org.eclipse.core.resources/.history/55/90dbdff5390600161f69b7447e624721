@@ -1,0 +1,14 @@
+application.type=widget
+application.code=brunoinfouser
+application.title=Bruno - Info User
+application.description=Bruno - Info User
+application.category=Bruno
+application.renderer=freemarker
+developer.code=SPON4399
+developer.name=bruno.bulnes
+developer.url=http://www.fluig.com
+application.uiwidget=true
+application.mobileapp=false
+view.file=view.ftl
+edit.file=edit.ftl
+

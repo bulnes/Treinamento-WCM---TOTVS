@@ -1,0 +1,11 @@
+var brunomodal = SuperWidget.extend({
+
+    init: function() {
+    	
+    },
+    
+    bindings: {
+        local: {},
+        global: {}
+    },
+});

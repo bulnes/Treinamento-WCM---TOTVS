@@ -1,0 +1,19 @@
+application.type=layout
+application.code=brunolayout
+application.title=Bruno - Layout
+application.description=Bruno - Layout
+application.category=Bruno
+application.renderer=freemarker
+application.icon=icon.png
+
+developer.code=SPON4399
+developer.name=bruno.bulnes
+developer.url=http://www.fluig.com
+
+layout.defaultSlot=SlotA
+layout.file=layout.ftl
+
+locale.file.base.name=brunolayout
+
+slot.SlotMenu=menu
+slot.SlotLogin=sociallogin

@@ -1,0 +1,19 @@
+<#import "/wcm.ftl" as wcm/>
+
+<@wcm.header authenticated="true"/>
+
+<div class="wcm-wrapper-content">
+
+	<@wcm.menu />
+
+	<div class="wcm-all-content">
+		
+		<div class="container">
+			<div class="row">
+					<@wcm.renderSlot id="SlotA" editableSlot="true"/>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
